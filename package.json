@@ -1,22 +1,17 @@
 {
-  "name": "typescript-library-template",
+  "name": "peg-ts",
   "version": "1.0.0",
-  "description": "Starter template for TypeScript libraries",
+  "description": "Parsing Expression Grammar library for Typescript",
   "main": "lib/main/index.js",
   "typings": "lib/main/index.d.ts",
   "module": "lib/module/index.js",
-  "repository": "https://github.com/amelspahic/typescript-library-template.git",
-  "author": "Amel Spahic",
-  "license": "MIT",
+  "repository": "https://github.com/drtconway/peg-ts",
+  "author": "Tom Conway",
+  "license": "GPL3",
   "keywords": [
     "typescript",
     "library",
-    "template",
-    "starter",
-    "starter-template",
-    "starter-template-typescript",
-    "starter-template-typescript-library",
-    "tests"
+    "parsing"
   ],
   "scripts": {
     "build": "run-p build:*",
